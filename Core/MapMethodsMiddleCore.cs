@@ -18,7 +18,7 @@ public class MapMethodsMiddleCore
         _next = next;
         _MapMethods = MM;
     }
-
+    
     public async Task InvokeAsync(HttpContext context)
     {
         var routevalues = context.GetRouteData().Values;
